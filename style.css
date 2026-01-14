@@ -1,0 +1,89 @@
+/* ----- POLICES ----- */
+
+/* Titres */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #200f04;
+}
+
+/* Paragraphes et listes */
+body, p, li {
+  font-family: "Aptos", "Segoe UI Variable", "Segoe UI", sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ----- GLOBAL ----- */
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sous-titre {
+  font-size: 1.1rem;
+  margin-top: -10px;
+  color: #444;
+}
+
+.infos {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ----- SECTIONS ----- */
+
+section {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  border-left: 5px solid #200f04;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/* ----- LIENS ----- */
+
+a {
+  color: #200f04;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ----- BOUTON ----- */
+
+.bouton {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #200f04;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.bouton:hover {
+  background-color: #200f04;
+}
+
+.photo-profil {
+  width: 250px;
+  height: 250px; /* important pour garder un cercle parfait */
+  object-fit: cover; /* évite la déformation */
+  border-radius: 50%;
+}
